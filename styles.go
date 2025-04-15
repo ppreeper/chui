@@ -9,21 +9,21 @@ import "github.com/charmbracelet/lipgloss"
 
 // ========= LipGloss =========
 
-var HeaderStyle = lipgloss.NewStyle().
+var Header = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#EEEEEE")).
 	Bold(true)
 
-var EvenRowStyle = lipgloss.NewStyle().
+var EvenRow = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#777777"))
 
-var OddRowStyle = lipgloss.NewStyle().
+var OddRow = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#AAAAAA"))
 
-var StepStyle = lipgloss.NewStyle().
+var Step = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#EEEEEE")).
 	Bold(true)
 
-var SubStepStyle = lipgloss.NewStyle().
+var SubStep = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#228822")).
 	Bold(true)
 
@@ -33,10 +33,10 @@ var Success = lipgloss.NewStyle().
 var Info = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#EEEEEE"))
 
-var WarningStyle = lipgloss.NewStyle().
+var Warning = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#FF8800")).
 	Bold(true)
 
-var ErrorStyle = lipgloss.NewStyle().
+var Error = lipgloss.NewStyle().
 	Foreground(lipgloss.Color("#EE0000")).
 	Bold(true)
